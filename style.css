@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+      sans-serif;
+    color: white;
+    line-height: 1.3em;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    margin: 0 3.5em;
+    position: relative;
+  }
+  
+  header img {
+    width: 134px;
+    height: 36px;
+    filter: invert(31%) sepia(82%) saturate(6236%) hue-rotate(346deg)
+      brightness(96%) contrast(124%);
+  }
+  
+  header a button {
+    border: 1px solid #e50914;
+    padding: 7px 17px;
+    background-color: #e50914;
+    font-size: 1rem;
+    border-radius: 3px;
+  }
+  
+  main {
+    background-color: black;
+  }
+  
+  .view1 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.87),
+        rgba(0, 0, 0, 0.479),
+        rgba(0, 0, 0, 0.87)
+      ),
+      url(images/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 8px solid #222;
+  }
+  
+  .div1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3.125em;
+    font-weight: 500;
+    max-width: 640px;
+    line-height: 1.1em;
+  }
+  
+  h2 {
+    font-size: 3.1em;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  
+  h3 {
+    font-size: 1.625em;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-top: 0.8em;
+  }
+  
+  div.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input {
+    height: 60px;
+    min-width: 450px;
+    padding-left: 10px;
+    font-size: 1em;
+  }
+  
+  input ~ a button {
+    min-height: 60px;
+    min-width: 74px;
+    width: 225px;
+    padding: 0;
+    border: 1px solid #f40612;
+    background-color: #f40612;
+    font-size: 1.625em;
+  }
+  
+  input::placeholder {
+    color: #8c8c8c;
+  }
+  
+  button > img {
+    width: 25px;
+    height: 18px;
+    filter: brightness(4);
+  }
+  
+  section {
+    display: flex;
+    gap: 1em;
+    width: 100vw;
+    padding: 50px 130px;
+    border-bottom: 8px solid #222;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-side {
+    width: 50%;
+  }
+  
+  .right-side {
+    width: 50%;
+  }
+  
+  .positioning {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .positioning img {
+    float: right;
+    width: 450px;
+    background: transparent;
+  }
+  
+  .positioning2 {
+    position: absolute;
+    top: 100%;
+    right: 195px;
+    transform: translateY(100%);
+    overflow: hidden;
+  }
+  
+  video {
+    width: 325px;
+  }
+  
+  .mobile-img > img {
+    max-width: 100%;
+    background: transparent;
+    float: left;
+  }
+  
+  .stranger-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.65em 0.75em;
+    border: 2px solid hsla(0, 0%, 100%, 0.25);
+    border-radius: 0.75em;
+    width: 330px;
+    max-width: 100%;
+    top: 200%;
+    transform: translateY(250%);
+    left: 235px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .stranger {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+  }
+  
+  .stranger > img {
+    width: 50px;
+    height: 70px;
+  }
+  
+  .stranger-img > img {
+    width: 50px;
+    height: 50px;
+    float: right;
+  }
+  
+  .stranger-p p:nth-of-type(2) {
+    color: #0071eb;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: -3px;
+  }
+  
+  .view4 {
+    display: block;
+  }
+  
+  .text {
+    width: 50%;
+  }
+  
+  .view5 img {
+    width: 500px;
+  }
+  
+  .view6 {
+    display: block;
+    padding: 50px 0;
+  }
+  
+  #view6 {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .view6 summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px 30px;
+  }
+  
+  .view6 span {
+    font-size: 50px;
+    font-weight: 100;
+  }
+  
+  .view6 details > p {
+    border-top: 2px solid black;
+    padding: 30px;
+  }
+  
+  details {
+    background: #303030;
+    margin: 0 auto 8px;
+    font-size: 1.625em;
+    width: 75%;
+  }
+  
+  .view6 h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .view6 h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+  }
+  
+  footer {
+    width: 70vw;
+    padding: 50px 0px;
+    margin: auto;
+    font-size: 13px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #8c8c8c;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    margin: 30px auto;
+  }
+  
+  .list {
+    display: flex;
+    gap: 7em;
+  }
+  
+  footer span {
+    color: #8c8c8c;
+    padding-left: 30px;
+  }
+  
+  footer span:nth-of-type(1) {
+    font-size: 16px;
+  }
+  
